@@ -1,0 +1,58 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th {
+  background-color: lightslategray;
+}
+table th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+.edit {
+  background-color: darkslategrey;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.delete {
+  background-color: crimson;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+section article {
+  display: flex;
+  flex-direction: column;
+}
+#formData {
+  width: 80%;
+  margin: 30px auto;
+}
+#formData form {
+  display: flex;
+  justify-content: space-around;
+  background-color: slategray;
+  padding: 30px 30px;
+}
+#formData form input {
+  width: 100%;
+  height: 30px;
+  padding-left: 4px;
+  border: none;
+  text-transform: capitalize;
+}
+#formData form button {
+  background-color: darkslategray;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
